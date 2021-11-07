@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.403125" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/drawable/ic_face_retouching_natural.xml" value="0.403125" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/drawable/ic_lock.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/drawable/ic_person.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/drawable/ic_question.xml" value="0.403125" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/drawable/ic_storm.xml" value="0.403125" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/layout/activity_main.xml" value="0.34074074074074073" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/layout/fragment_one.xml" value="0.33" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/layout/fragment_start.xml" value="0.33" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/layout/fragment_summary.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/layout/fragment_two.xml" value="0.33" />
+        <entry key="..\:/Users/KingFu/Desktop/Android Studio Projects/Personal Application/MyInterview/app/src/main/res/layout/interview.xml" value="0.381025641025641" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

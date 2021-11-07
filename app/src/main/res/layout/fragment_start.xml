@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StartFragment">
+
+    <data>
+        <variable
+            name="startFragment"
+            type="com.bignerdranch.android.myinterview.StartFragment" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_picture">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_between_elements"
+                android:importantForAccessibility="no"
+                android:scaleType="center"
+                app:srcCompat="@drawable/ic_face_retouching_natural"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/side_margin"
+                android:textSize="50sp"
+                android:text="@string/my_interview"
+                android:textAppearance="?attr/textAppearanceHeadline4"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:shadowColor="#00EAFF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="20"/>
+
+            <Button
+                android:id="@+id/btnStartInterview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_between_elements"
+                android:minWidth="@dimen/order_cupcake_button_width"
+                android:text="@string/start_interview"
+                android:textColor="@color/white"
+                android:onClick="@{() -> startFragment.startInterview()}"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passcode"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/passcode_hint"
+                android:textColorHint="@color/black"
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/icon_cost_of_service"
+                app:layout_constraintTop_toTopOf="parent"
+                app:boxStrokeColor="@color/black"
+                app:boxBackgroundColor="#66000000"
+                app:hintAnimationEnabled="true"
+                app:expandedHintEnabled="true"
+                app:endIconMode="password_toggle"
+                app:endIconDrawable="@drawable/ic_eye"
+                app:endIconTint="@color/black"
+                app:counterEnabled="true"
+                app:counterTextColor="@color/black"
+                app:counterMaxLength="20"
+                app:boxStrokeErrorColor="@color/red"
+                android:maxLength="20">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPasscode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="numberPassword"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

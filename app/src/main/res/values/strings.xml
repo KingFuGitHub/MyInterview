@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyInterview</string>
+    <string name="my_interview">MyInterview</string>
+    <string name="start_interview">Start Interview</string>
+    <string name="cancel">Cancel</string>
+    <string name="next_question">Next Question</string>
+    <string name="interview_summary">[MyInterview] Interview Summary</string>
+    <string name="send">Send Result to Another App</string>
+    <string name="date_taken">Date taken</string>
+    <string name="question_one">Question 1</string>
+    <string name="question_two">Question 2</string>
+    <string name="total_price">Total %s</string>
+    <string name="total_question">Total question: %s</string>
+    <string name="finish">Finish</string>
+    <string name="order_details">
+        Date taken: %1$s
+        \n Question 1: %2$s
+        \n Your answer: %3$s
+        \n Question 2: %4$s
+        \n Your answer: %5$s
+        \n Total Question: %6$s
+        \n
+        \n Thank you for taking the interview!</string>
+    <string name="question_one_prompt">Talk about one of your setbacks.</string>
+    <string name="question_two_prompt">Talk about one of your greatest strengths.</string>
+    <string name="your_answer_one">vocal</string>
+    <string name="your_answer_two">vocal</string>
+    <string name="passcode_hint">Passcode</string>
+</resources>
